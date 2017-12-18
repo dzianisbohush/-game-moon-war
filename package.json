@@ -1,0 +1,37 @@
+{
+  "name": "dzianisbohush-front-end-course",
+  "version": "1.0.0",
+  "description": "Moon War",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/dzianisbohush-front-end-course.git"
+  },
+  "author": "dzianisbohush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/dzianisbohush-front-end-course/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/dzianisbohush-front-end-course#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "url-loader": "^0.6.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
